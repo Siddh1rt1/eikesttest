@@ -1,7 +1,20 @@
 from flask import Flask, request, render_template
 #import train as baz
 app = Flask(__name__)
-
+print("a")
+import argparse
+print("b")
+import torch
+print("c")
+import numpy as np
+print("d")
+from torch import nn, optim
+print("e")
+from torch.utils.data import DataLoader
+print("f")
+from model import Model
+print("g")
+from dataset import Dataset
 
 @app.route('/')
 def index():
