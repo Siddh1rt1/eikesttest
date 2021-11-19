@@ -1,6 +1,6 @@
 from flask import Flask, request, render_template
 
-my_awesome_app = Flask(__name__)
+app = Flask(__name__)
 
 
 @my_awesome_app.route('/')
@@ -13,4 +13,4 @@ def updatetext():
     return render_template('index.html', data=data )
 
 if __name__ == '__main__':
-    my_awesome_app.run()
+    app.run()
