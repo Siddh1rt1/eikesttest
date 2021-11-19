@@ -28,10 +28,9 @@ def my_form_post():
     if (str(text) not in str(top)):
       return render_template('index.html',data="Missing Data - 'Menschen' Eike hat darüber noch keinen Witz geschrieben.")  
     else:
-      #data = text.upper()
       print("logilogi2,6")
       print("logilogi2,4")
-      #import train
+      import train
       print("logilogi2,5")
       #from train import dataset, model, text, args  
 
@@ -43,8 +42,9 @@ def my_form_post():
       #print(result)
       
       holy = open("end.txt", "r+")
-      bdata = holy.read()
-      holy.truncate(0)
+      #bdata = holy.read()
+      bdata = "jojojo"
+       holy.truncate(0)
       holy.close()
       hell = open("input.txt","r+")
       hell.truncate(0)
