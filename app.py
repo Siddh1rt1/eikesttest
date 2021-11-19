@@ -1,5 +1,5 @@
 from flask import Flask, request, render_template
-import train as baz
+#import train as baz
 app = Flask(__name__)
 
 
@@ -32,7 +32,7 @@ def my_form_post():
       print("logilogi2,4")
       
       print("logilogi2,5")
-      #from train import dataset, model, text, args  
+      from train import dataset, model, text, args  
 
       print("logilogi3")
       #besult= train.train(dataset,model,args)
