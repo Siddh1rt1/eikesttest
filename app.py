@@ -30,7 +30,7 @@ def my_form_post():
     else:
       print("logilogi2,6")
       print("logilogi2,4")
-      import train
+      #import train
       print("logilogi2,5")
       #from train import dataset, model, text, args  
 
