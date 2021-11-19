@@ -44,7 +44,7 @@ def my_form_post():
       holy = open("end.txt", "r+")
       #bdata = holy.read()
       bdata = "jojojo"
-       holy.truncate(0)
+      holy.truncate(0)
       holy.close()
       hell = open("input.txt","r+")
       hell.truncate(0)
