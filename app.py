@@ -7,7 +7,7 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
-@app.route('/updatetext', methods=['POST'])
+@app.route('/', methods=['POST'])
 def updatetext():
     data= "ich bin data"
     return render_template('index.html', data=data )
