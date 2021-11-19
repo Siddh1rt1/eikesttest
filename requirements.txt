@@ -10,4 +10,5 @@ gunicorn==20.1.0
 Jinja2==3.0.2
 json5==0.9.6
 argon2-cffi==21.1.0
-
+parso==0.8.2
+argparse==1.1
