@@ -46,10 +46,10 @@ def my_form_post():
       
       print("logilogi2,5")
       #from train import dataset, model, text, args  
-      import train
+      #import train
       print("logilogi3")
       besult= train.train(dataset,model,args)
-      print("logilogi4")
+      #print("logilogi4")
       #result= train.predict(dataset,model,text)
       #train.predict(dataset, model, text, next_words=9)
       #print(result)
