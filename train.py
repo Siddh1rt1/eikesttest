@@ -46,3 +46,15 @@ def predict(dataset, model, text, next_words=10):
         words.append(dataset.index_to_word[word_index])
 
     return words
+
+parser = argparse.ArgumentParser()
+parser.add_argument('--max-epochs', type=int, default=10)
+parser.add_argument('--batch-size', type=int, default=256)
+parser.add_argument('--sequence-length', type=int, default=4)
+args = parser.parse_args()
+
+dataset = Dataset(args)
+model = Model(dataset)
+
+train(dataset, model, args)
+print(predict(dataset, model, text='Merz'))
