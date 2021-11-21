@@ -4,8 +4,7 @@ app = Flask(__name__)
 print("a")
 import argparse
 print("b")
-import torch
-print("c")
+
 import numpy as np
 print("d")
 from torch import nn, optim
@@ -51,8 +50,8 @@ def my_form_post():
       #besult= train.train(dataset,model,args)
       #print("logilogi4")
       import train as train
-      result= train.predict()
-      #result= train.predict(dataset,model,text)
+      #result= train.predict()
+      result= train.predict(dataset,model,text)
       #train.predict(dataset, model, text, next_words=9)
       #print(result)
       
