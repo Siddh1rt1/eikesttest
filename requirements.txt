@@ -1,6 +1,6 @@
-torch==1.8.1
-torchvision==0.9.1
-torchaudio==0.10.0
+torch==1.8.1+cpu
+torchvision==0.9.1+cpu
+torchaudio==0.10.0+cpu
 numpy==1.21.4
 Flask==2.0.2
 requests==2.26.0
