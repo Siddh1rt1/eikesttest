@@ -31,8 +31,10 @@ def train(dataset, model, args):
             print({ 'epoch': epoch, 'batch': batch, 'loss': loss.item() })
             
 def predict(dataset, model, text, next_words=10):
+    print ("jolo")
     model.eval()
-
+    import torch
+    print("c")
     words = text.split(' ')
     state_h, state_c = model.init_state(len(words))
 
