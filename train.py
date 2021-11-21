@@ -1,5 +1,8 @@
+print("train_1")
 import argparse
+print("train_2")
 import torch
+print("train_3")
 import numpy as np
 from torch import nn, optim
 from torch.utils.data import DataLoader
