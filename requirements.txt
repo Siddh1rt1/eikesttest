@@ -1,9 +1,10 @@
 -f https://download.pytorch.org/whl/cpu/torch_stable.html
+torchvision==0.7.0+cpu
+torchaudio==0.10.0+cpu
+
 torch==1.10.0+cpu
 torchvision==0.11.1+cpu
 torchaudio==0.10.0+cpu
-
-
 numpy==1.21.4
 Flask==2.0.2
 requests==2.26.0
@@ -12,5 +13,4 @@ gunicorn==20.1.0
 Jinja2==3.0.2
 json5==0.9.6
 argon2-cffi==21.1.0
-parso==0.8.2
-argparse==1.1
+
