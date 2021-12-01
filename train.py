@@ -107,7 +107,7 @@ print("vor parser 2")
 print("errorlog")
 #args, unknown = parser.parse_known_args()
 #print(args)
-dataset = Dataset(2)
+dataset = Dataset(1)
 model = Model(dataset)
 
 #train(dataset, model, args)
